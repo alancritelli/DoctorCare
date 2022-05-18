@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoctorCare</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/icones/style.css">
+
+    <!-- ICONS-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icones/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icones/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icones/favicon-16x16.png">
+
+    <!-- FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav id="navigation">
+      <div class="wrapper">
+        <a href="#home" class="logo">
+          <p>Doctor<span>Care</span></p>
+        </a>
+        <div class="menu">
+          <ul>
+            <li><a onclick="closeMenu()" href="#home">Início</a></li>
+            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+            <li><a onclick="closeMenu()" href="#about">Sobre Nós</a></li>
+            <li><a onclick="closeMenu()" href="#testimonials">Depoimentos</a></li>
+            <li><a onclick="closeMenu()" href="#contact">Contato</a></li>
+          </ul>
+
+          <a class="button" onclick="closeMenu()" href="#contact">Agende sua consulta</a>
+
+          <ul class="social-links">
+            <li><a target="_blank" href="https://instagram.com/alancritelli"><i class="icon-instagram"></i></a></li>
+            <li><a target="_blank" href="https://facebook.com/alancritelli"><i class="icon-facebook"></i></a></li>
+            <li><a target="_blank" href="https://youtube.com/alancritelli"><i class="icon-youtube"></i></a></li>
+          </ul>
+        </div>
+
+        <button aria-expanded="false" aria-label="Abrir menu" onclick="openMenu()" class="open-menu">
+          <i class="icon-menu"></i>
+        </button>
+
+        <button aria-expanded="true" aria-label="Fechar menu" onclick="closeMenu()" class="close-menu">
+          <i class="icon-x"></i>
+        </button>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>BOAS-VINDAS A DOCTORCARE 👋</h4>
+            <h1>Assistência médica simplificada para todos</h1>
+          </header>
+
+          <div class="content">
+            <p>Os médicos da DoctorCare vão além dos sintomas para tratar a causa raiz de sua doença e proporcionar uma cura a longo prazo.</p>
+
+            <a href="#contact" class="button"><i class="icon-whatsapp"></i>Agende sua consulta</a>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img src="assets/img/mulher-negra-com-moleton-verde-com-as-duas-maos-no-peito.png" alt="Mulher negra vestindo moletom verde com as duas mãos no peito e sorrindo">
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <h3>+3.500</h3>
+            <p>Pacientes atendidos</p>
+          </div>
+
+          <div class="stat">
+            <h3>+15</h3>
+            <p>Especialistas disponíveis</p>
+          </div>
+
+          <div class="stat">
+            <h3>+10</h3>
+            <p>Anos no mercado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrapper">
+        <header>
+          <h4>Serviços</h4>
+          <h2>Como podemos ajuda-lo a se sentir melhor?</h2>
+        </header>
+
+        <div class="content">
+          <div class="cards">
+
+            <div class="card">
+              <img src="assets/img/Group 2checked.svg" alt="imagem de uma correção positiva dentro de um circulo">
+              <h3>Problemas digestivos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fuga repudiandae impedit ut! Voluptatem exercitationem doloribus eius fugit ut, error provident, sequi cumque dignissimos ex sed totam enim sunt eaque?</p>
+            </div>
+
+            <div class="card">
+              <img src="assets/img/Group 2checked.svg" alt="imagem de uma correção positiva dentro de um circulo">
+              <h3>Saúde Hormonal</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fuga repudiandae impedit ut! Voluptatem exercitationem doloribus eius fugit ut, error provident, sequi cumque dignissimos ex sed totam enim sunt eaque?</p>
+            </div>
+
+            <div class="card">
+              <img src="assets/img/Group 2checked.svg" alt="imagem de uma correção positiva dentro de um circulo">
+              <h3>Bem-estar mental</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fuga repudiandae impedit ut! Voluptatem exercitationem doloribus eius fugit ut, error provident, sequi cumque dignissimos ex sed totam enim sunt eaque?</p>
+            </div>
+
+            <div class="card">
+              <img src="assets/img/Group 2checked.svg" alt="imagem de uma correção positiva dentro de um circulo">
+              <h3>Cuidados Pediátricos</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fuga repudiandae impedit ut! Voluptatem exercitationem doloribus eius fugit ut, error provident, sequi cumque dignissimos ex sed totam enim sunt eaque?</p>
+            </div>
+
+            <div class="card">
+              <img src="assets/img/Group 2checked.svg" alt="imagem de uma correção positiva dentro de um circulo">
+              <h3>Autoimune e Inflamação</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fuga repudiandae impedit ut! Voluptatem exercitationem doloribus eius fugit ut, error provident, sequi cumque dignissimos ex sed totam enim sunt eaque?</p>
+            </div>
+
+            <div class="card">
+              <img src="assets/img/Group 2checked.svg" alt="imagem de uma correção positiva dentro de um circulo">
+              <h3>Saúde do Coração</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fuga repudiandae impedit ut! Voluptatem exercitationem doloribus eius fugit ut, error provident, sequi cumque dignissimos ex sed totam enim sunt eaque?</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>Sobre nós</h4>
+            <h2>Entenda quem somos e por que existimos</h2>
+          </header>
+
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat vero incidunt laborum blanditiis aperiam molestias cupiditate explicabo ratione enim possimus. Molestiae temporibus quos iste porro eveniet a aliquid possimus pariatur.</p>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img src="assets/img/doutor-feliz-segurando-prancheta-com-pacientes.png" alt="Doutor feliz segurando uma prancheta com pacientes">
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="wrapper">
+        <header>
+          <h4>Depoimentos</h4>
+          <h2>Depoimentos de quem já passou por aqui</h2>
+        </header>
+
+        <div class="content">
+          <div class="cards">
+
+            <div class="card">
+              <blockquote>
+                <p><span>&ldquo;</span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fuga repudiandae impedit ut! Voluptatem exercitationem doloribus eius fugit ut, error provident, sequi cumque dignissimos ex sed totam enim sunt eaque?</p>
+  
+                <cite>
+                  <img src="assets/img/rosto-de-alan-critelli.jpg" alt="imagem de uma correção positiva dentro de um circulo">
+                  <h3>Alan Critelli</h3>
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="card">
+              <blockquote>
+                <p><span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fuga repudiandae impedit ut! Voluptatem exercitationem doloribus eius fugit ut, error provident, sequi cumque dignissimos ex sed totam enim sunt eaque?</p>
+  
+                <cite>
+                  <img src="assets/img/rosto-de-simone-castanho.jpg" alt="imagem de uma correção positiva dentro de um circulo">
+                  <h3>Simone Castanho</h3>
+                </cite>
+              </blockquote>
+            </div>
+
+            <div class="card">
+              <blockquote>
+                <p><span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci fuga repudiandae impedit ut! Voluptatem exercitationem doloribus eius fugit ut, error provident, sequi cumque dignissimos ex sed totam enim sunt eaque?</p>
+  
+                <cite>
+                  <img src="assets/img/rosto-de-louize-alamin.jpg" alt="imagem de uma correção positiva dentro de um circulo">
+                  <h3>Louize Alamin</h3>
+                </cite>
+              </blockquote>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>Contatos</h4>
+            <h2>Entre em contato com a gente!</h2>
+          </header>
+          
+          <div class="content">
+            <ul>              
+              <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i>contato@doctorcare.com</li>
+            </ul>
+
+            <a href="https://wa.me/5515996780959" class="button" target="_blank">
+              <i class="icon-whatsapp"></i> Agende sua consulta
+            </a>
+          </div>
+
+        </div>
+
+        <div class="col-b">
+          <img src="assets/img/homem-negro-com-moletom-bege-mexendo-no-celular.png" alt="Homem negro com moletom bege mexendo no celular e sorrindo">
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+          <a href="#home" class="logo">
+            <p>Doctor<span>Care</span></p>
+          </a>
+
+          <p>
+            @2022 DoctorCare. <br>
+            Todos os direitos reservados.
+          </p>
+        </div>
+
+        <div class="col-b">
+          <ul class="social-links">
+            <li>
+              <a href="https://instagram.com/alancritelli"><i class="icon-instagram"></i></a>
+            </li>
+
+            <li>
+              <a href="https://facbeook.com/alancritelli"><i class="icon-facebook"></i></a>
+            </li>
+
+            <li>
+              <a href="https://youtube.com"><i class="icon-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a id="backToTopButton" href="#home">
+      <i class="icon-arrow-up"></i>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
